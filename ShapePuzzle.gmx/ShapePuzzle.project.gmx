@@ -8,6 +8,21 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\calculate_relative_shape_vertex_positions.gml</script>
+    <scripts name="helper">
+      <script>scripts\conditional.gml</script>
+    </scripts>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\font_debug</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_frame</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room_debug</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

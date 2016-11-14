@@ -9,6 +9,7 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\mouse_within_sprite_box.gml</script>
     <script>scripts\calculate_relative_shape_vertex_positions.gml</script>
     <scripts name="helper">
       <script>scripts\conditional.gml</script>
@@ -16,9 +17,12 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_debug</font>
+    <font>fonts\font_inside_shape</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_frame</object>
+    <object>objects\obj_control</object>
+    <object>objects\obj_shape</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_debug</room>
